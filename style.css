@@ -102,7 +102,16 @@ nav ul li a:hover::after{
 
 .about-col-1{
     flex-basis: 35%; 
+    overflow: hidden;
 }
+
+about-img{
+    transition: all 2s ease-in-out;
+}
+
+about-img:hover{
+      transform: scale(2,2)
+  }
 
 .about-col-1 img{
     width: 100%;
