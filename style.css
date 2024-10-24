@@ -130,6 +130,13 @@ about-img:hover{
 
 }
 
+.skills-head {
+    color: #ffbc00;
+}
+
+.skills span {
+    color: #262626;
+}
 
 .tab-title{
     display: flex;
@@ -168,10 +175,21 @@ about-img:hover{
     
 }
 
-.tab-contents ul li span{
-    color: #EFBF38;
-    font-size: 14px;
+.tab-contents ul li #skills-head{
+    color: #ffbb00;
+    font-size: 22px;
 }
+
+.tab-contents ul li span  {
+    color: #262626;
+    font-size: 16px;
+}
+
+.tab-contents ul span {
+    color: #000000;
+    font-size: 17px;
+}
+
 
 .tab-contents{
     display: none;
